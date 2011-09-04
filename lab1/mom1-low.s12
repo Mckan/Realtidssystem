@@ -1,0 +1,65 @@
+* mom1-low.s12
+
+	segment abs
+
+* Definitioner för RTC-kretsen i HC12 CRGFLG equ $37
+CRGINT equ $38
+RTICTL equ $3B
+
+* Flagga
+RTIF equ $80
+STKSIZE EQU $40 stackutrymmen för program
+
+* Datadeklarationer
+      bss
+*'STKSIZE' bytes stackutrymme för 'producer' 
+	RMB STKSIZE-1
+a_stack_producer RMB 1
+
+*'STKSIZE' bytes stackutrymme för 'consumer' RMB STKSIZE-1
+a_stack_consumer RMB 1
+
+RUNNING RMB 1 anger exekverande program 
+
+* temporär lagring stackpekare för 'RUNNING' 
+current_sp RMB 2
+
+* temporär lagring stackpekare för 'producer' 
+Producer_sp RMB 2
+
+* temporär lagring stackpekare för 'consumer' 
+consumer_sp RMB 2
+
+
+	segment text starta KOD-segment
+
+* Följande funktioner är definierade i 'mom1.c' extern _producer
+extern _consumer
+
+* Programexekveringen startar här *
+	define _main
+	entry _main 
+
+_main:
+	init_producer; (Skriv koden här ej som subrutin) 	
+	init_consumer; ( dito )
+	init_RTC; ( dito )
+	utför nu start av ’producer()’ så som ’timer_interrupt’ gör det...
+	CLR RUNNING
+	LDS producer_sp
+	RTI
+	
+* Exekveringen kommer aldrig tillbaks hit...
+
+timer_init:
+* avbrottsvektor måste initieras under DBG12...
+	LDX #timer_interrupt
+	STX $3FF0 Avbrottsvektor RTC
+* men vi skriver den också till 'rätt' adress för * att även kunna använda exemplet i simulatorn...
+	STX $FFF0
+* initiera RTC:n för önskad avbrottsfrekvens MOVB #$49,RTICTL
+* tidsbas 10,24 ms, se exempel ovan
+* initiera RTC
+	MOVB #$80,CRGINT aktivera avbrott
+* nollställ I-flagga så att avbrott accepteras
+	CLI
