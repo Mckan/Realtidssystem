@@ -1,0 +1,197 @@
+QLD (Version 4.8.0)- Link/Load Summary: 'debug\lab1_Debug.s19'
+SCRIPT FILES FROM THE FOLLOWING PATH(S):
+  'C:/Program Files/GMV/EducDist/config/xcc12'
+
+SCRIPT READ FROM THE FOLLOWING FILE(S):
+  'default.lsc'
+
+---------------------------
+ SEARCHED LIBRARIES:
+ 'C:/Program Files/GMV/EducDist/lib/xcc12/libcd.e12'
+ 'C:/Program Files/GMV/EducDist/lib/xcc12/libed.e12'
+ 'C:/Program Files/GMV/EducDist/lib/xcc12/librtkd.e12'
+ 'C:/Program Files/GMV/EducDist/lib/xcc12/libccd.e12'
+
+---------------------------
+ PROGRAM ENTRY:'__start'
+---------------------------
+ GROUPS AND SEGMENTS:
+
+  GROUP 'const_group',
+   SEGMENTS
+   'abs'
+
+  GROUP 'test_group', READ ONLY ,allocation to: 00001000 - 00003307, (size: 8968 Bytes)
+   00001000 00001015 'init'
+   00001016 0000320D 'text'
+   0000320E 0000326B 'rodata'
+   0000326C 00003307 'bss'
+
+  GROUP 'interrupt_vectors', READ ONLY
+   NO SEGMENTS
+---------------------------
+LINKER DEFINED CONSTANTS:
+   __rom_code_enabled = 0
+   __heap_start = 00003308
+  from segment 'text'
+   00001016 '__text__start'
+   0000320E '__text__end'
+   000021F8 '__text__size'
+  from segment 'init'
+   00001000 '__init__start'
+   00001016 '__init__end'
+   00000016 '__init__size'
+  from segment 'bss'
+   0000326C '__bss__start'
+   00003308 '__bss__end'
+   0000009C '__bss__size'
+  from segment 'data'
+   00000000 '__data__start'
+   00000000 '__data__end'
+   00000000 '__data__size'
+  from segment 'rodata'
+   0000320E '__rodata__start'
+   0000326C '__rodata__end'
+   0000005E '__rodata__size'
+---------------------------
+GLOBAL SYMBOL(S):
+
+ in module: '_startup' of type 'O12' defined in file '_startup.o12'
+  in segment: 'text'
+   0000102B '__inchar'
+   00001019 '__init'
+   00001025 '__outchar'
+   00001028 '__tstchar'
+   00001016 '__lowexit'
+  in segment: 'init'
+   00001000 '__start'
+
+ in module: 'mom1_low' of type 'O12' defined in file 'mom1-low.o12'
+  in segment: 'text'
+   00001031 '_main'
+
+ in module: 'mom1' of type 'O12' defined in file 'mom1.o12'
+  in segment: 'text'
+   000010B1 '_producer'
+   000010E6 '_consumer'
+  in segment: 'bss'
+   000032CE '_position'
+   000032B4 '_buffer'
+
+ in module: 'printf' of type 'O12' defined in file 'printf.o12'
+  in segment: 'text'
+   0000110A '_printf'
+
+ in module: '__doprint' of type 'O12' defined in file '__doprint.o12'
+  in segment: 'text'
+   00001124 '___doprint'
+
+ in module: 'ecvt' of type 'O12' defined in file 'ecvt.o12'
+  in segment: 'text'
+   00001E2C '_ecvt'
+   00001E44 '_fcvt'
+
+ in module: 'putc' of type 'O12' defined in file 'putc.o12'
+  in segment: 'text'
+   00001E5D '_putc'
+
+ in module: 'fputc' of type 'O12' defined in file 'fputc.o12'
+  in segment: 'text'
+   00001E6A '_fputc'
+
+ in module: '__crt' of type 'O12' defined in file '__crt.o12'
+  in segment: 'text'
+   00001F0D '___crt_get_system_time'
+   00001F14 '___crt_get_msec_ptr'
+   00001F18 '___crtInit'
+  in segment: 'bss'
+   000032FA '___crt_first_malloc_element'
+   000032FC '___crt_first_malloc_element_m_base'
+   000032FE '___crt_first_malloc_element_m_size'
+
+ in module: '_add32' of type 'O12' defined in file '_add32.o12'
+  in segment: 'text'
+   00001F87 'add32'
+
+ in module: '_and32' of type 'O12' defined in file '_and32.o12'
+  in segment: 'text'
+   00001F96 'and32'
+
+ in module: '_cmp32' of type 'O12' defined in file '_cmp32.o12'
+  in segment: 'text'
+   00001FA5 'cmp32'
+
+ in module: '_cmpf' of type 'O12' defined in file '_cmpf.o12'
+  in segment: 'text'
+   0000211E 'cmpf'
+
+ in module: '_div32' of type 'O12' defined in file '_div32.o12'
+  in segment: 'text'
+   00002216 'divs32'
+   00002142 'divu32'
+
+ in module: '_divf' of type 'O12' defined in file '_divf.o12'
+  in segment: 'text'
+   000022DF 'divf'
+
+ in module: '_eor32' of type 'O12' defined in file '_eor32.o12'
+  in segment: 'text'
+   00002579 'eor32'
+
+ in module: '_ftosl' of type 'O12' defined in file '_ftosl.o12'
+  in segment: 'text'
+   00002588 'ftosl'
+
+ in module: '_mod32' of type 'O12' defined in file '_mod32.o12'
+  in segment: 'text'
+   000026FF 'mods32'
+   000026CA 'modu32'
+
+ in module: '_mul32' of type 'O12' defined in file '_mul32.o12'
+  in segment: 'text'
+   0000284D 'muls32'
+   000027C0 'mulu32'
+
+ in module: '_mulf' of type 'O12' defined in file '_mulf.o12'
+  in segment: 'text'
+   00002916 'mulf'
+
+ in module: '_or32' of type 'O12' defined in file '_or32.o12'
+  in segment: 'text'
+   00002C08 'or32'
+
+ in module: '_shl32' of type 'O12' defined in file '_shl32.o12'
+  in segment: 'text'
+   00002C17 'shl32'
+
+ in module: '_shrs32' of type 'O12' defined in file '_shrs32.o12'
+  in segment: 'text'
+   00002C30 'shrs32'
+
+ in module: '_shru32' of type 'O12' defined in file '_shru32.o12'
+  in segment: 'text'
+   00002C49 'shru32'
+
+ in module: '_sltof' of type 'O12' defined in file '_sltof.o12'
+  in segment: 'text'
+   00002C62 'sltof'
+
+ in module: '_ultof' of type 'O12' defined in file '_ultof.o12'
+  in segment: 'text'
+   00002CA3 'ultof'
+
+ in module: '_sub32' of type 'O12' defined in file '_sub32.o12'
+  in segment: 'text'
+   00002D7C 'sub32'
+
+ in module: '_subf' of type 'O12' defined in file '_subf.o12'
+  in segment: 'text'
+   00002D8B 'subf'
+
+ in module: '_addf' of type 'O12' defined in file '_addf.o12'
+  in segment: 'text'
+   00002DFB 'addf'
+Reference at line: 131, module:mom1_low, truncated from 000032AB 
+
+---
+ End of listfile

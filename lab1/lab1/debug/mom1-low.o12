@@ -1,0 +1,108 @@
+mod:mom1_low:O12:mom1-low.o12
+seg:text:127
+seg:abs:0
+seg:bss:72
+C:text	CF0000CE00003435343637B72084EF36
+C:text	7F0000CF0000CE00003435343637B720
+C:text	84EF367F0000CE00007E3FF07EFFF018
+C:text	0B49003B180B80003810EF790000180B
+C:text	000000FF00000BEC807C0000F7000026
+C:text	14180C00000000180B010000180C0000
+C:text	0000060000180C00000000180B000000
+C:text	180C00000000FF0000180B5000370B
+C:bss	00000000000000000000000000000000
+C:bss	00000000000000000000000000000000
+C:bss	00000000000000000000000000000000
+C:bss	00000000000000000000000000000000
+C:bss	0000000000000000
+RG:text:mom1_low:00000004:O:W:_producer:70
+RG:text:mom1_low:00000017:O:W:_consumer:90
+RL:text:mom1_low:00000001:O:W:0000003F:bss:69
+RL:text:mom1_low:00000011:O:W:00000044:bss:85
+RL:text:mom1_low:00000014:O:W:00000040:bss:89
+RL:text:mom1_low:00000024:O:W:00000044:bss:105
+RL:text:mom1_low:00000027:O:W:00000047:text:110
+RL:text:mom1_low:0000003C:O:W:00000041:bss:130
+RL:text:mom1_low:00000040:O:B:0000003F:bss:131
+RL:text:mom1_low:00000041:O:W:00000042:bss:131
+RL:text:mom1_low:00000044:O:W:00000042:bss:132
+RL:text:mom1_low:0000004A:O:W:00000042:bss:137
+RL:text:mom1_low:0000004D:O:W:00000041:bss:138
+RL:text:mom1_low:00000053:O:W:00000044:bss:140
+RL:text:mom1_low:00000055:O:W:00000042:bss:140
+RL:text:mom1_low:0000005A:O:W:00000041:bss:141
+RL:text:mom1_low:0000005E:O:W:00000042:bss:142
+RL:text:mom1_low:00000060:O:W:00000046:bss:142
+RL:text:mom1_low:00000063:O:W:00000076:text:143
+RL:text:mom1_low:00000067:O:W:00000046:bss:145
+RL:text:mom1_low:00000069:O:W:00000042:bss:145
+RL:text:mom1_low:0000006E:O:W:00000041:bss:146
+RL:text:mom1_low:00000072:O:W:00000042:bss:147
+RL:text:mom1_low:00000074:O:W:00000044:bss:147
+RL:text:mom1_low:00000077:O:W:00000042:bss:149
+G:text:mom1_low:00000000:_main
+SY:A:M:mom1_low$Z:/Skola/Realtidssystem/lab1/mom1-low.s12
+SY:A:X:mom1_low:69:text:0
+SY:A:X:mom1_low:70:text:3
+SY:A:X:mom1_low:71:text:6
+SY:A:X:mom1_low:72:text:7
+SY:A:X:mom1_low:73:text:8
+SY:A:X:mom1_low:74:text:9
+SY:A:X:mom1_low:75:text:A
+SY:A:X:mom1_low:82:text:B
+SY:A:X:mom1_low:83:text:D
+SY:A:X:mom1_low:84:text:F
+SY:A:X:mom1_low:85:text:10
+SY:A:X:mom1_low:89:text:13
+SY:A:X:mom1_low:90:text:16
+SY:A:X:mom1_low:91:text:19
+SY:A:X:mom1_low:92:text:1A
+SY:A:X:mom1_low:93:text:1B
+SY:A:X:mom1_low:94:text:1C
+SY:A:X:mom1_low:95:text:1D
+SY:A:X:mom1_low:102:text:1E
+SY:A:X:mom1_low:103:text:20
+SY:A:X:mom1_low:104:text:22
+SY:A:X:mom1_low:105:text:23
+SY:A:X:mom1_low:110:text:26
+SY:A:X:mom1_low:111:text:29
+SY:A:X:mom1_low:115:text:2C
+SY:A:X:mom1_low:118:text:2F
+SY:A:X:mom1_low:122:text:34
+SY:A:X:mom1_low:125:text:39
+SY:A:X:mom1_low:130:text:3B
+SY:A:X:mom1_low:131:text:3E
+SY:A:X:mom1_low:132:text:43
+SY:A:X:mom1_low:133:text:46
+SY:A:X:mom1_low:136:text:47
+SY:A:X:mom1_low:137:text:49
+SY:A:X:mom1_low:138:text:4C
+SY:A:X:mom1_low:139:text:4F
+SY:A:X:mom1_low:140:text:51
+SY:A:X:mom1_low:141:text:57
+SY:A:X:mom1_low:142:text:5C
+SY:A:X:mom1_low:143:text:62
+SY:A:X:mom1_low:145:text:65
+SY:A:X:mom1_low:146:text:6B
+SY:A:X:mom1_low:147:text:70
+SY:A:X:mom1_low:149:text:76
+SY:A:X:mom1_low:150:text:79
+SY:A:X:mom1_low:151:text:7E
+SY:C:T: typ2 l (4)
+SY:C:T: typ4 c (1)
+SY:C:T: typ6 s (2)
+SY:C:T:mom1_low: typ16-mom1_low A (0)(typ4)
+SY:C:T:mom1_low: typ17-mom1_low A (2)(typ4)
+SY:A:F:mom1_low:text:_main:00000000:67
+SY:C:S:S:mom1_low:RUNNING:(typ4)
+SY:C:S:S:mom1_low:STKSIZE:(typ16-mom1_low)
+SY:C:S:S:mom1_low:RTIF:(typ16-mom1_low)
+SY:C:S:S:mom1_low:current_sp:(typ17-mom1_low)
+SY:C:S:S:mom1_low:a_stack_producer:(typ4)
+SY:C:S:S:mom1_low:a_stack_consumer:(typ4)
+SY:C:S:S:mom1_low:producer_sp:(typ17-mom1_low)
+SY:C:S:S:mom1_low:consumer_sp:(typ17-mom1_low)
+SY:C:S:S:mom1_low:CRGFLG:(typ16-mom1_low)
+SY:C:S:S:mom1_low:CRGINT:(typ16-mom1_low)
+SY:C:S:S:mom1_low:RTICTL:(typ16-mom1_low)
+e

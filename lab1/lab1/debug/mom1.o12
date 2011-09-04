@@ -1,0 +1,80 @@
+mod:mom1:O12:mom1.o12
+seg:text:90
+seg:bss:28
+seg:data:0
+seg:rodata:0
+C:text	A71B9FCCFFFF7C0000C6616B80FC0000
+C:text	8C00192C1EFD0000027D0000B764CE00
+C:text	001AE6E6806B00C17A2606C6616B8020
+C:text	02628020D8
+C:text	A71B9FFC00008C00002D18FE0000B754
+C:text	097E0000CE00001AE6E6006B80371600
+C:text	001B8120DE
+C:bss	00000000000000000000000000000000
+C:bss	000000000000000000000000
+RG:text:mom1:00000007:O:W:_position:50
+RG:text:mom1:0000000E:O:W:_position:61
+RG:text:mom1:00000016:O:W:_position:67
+RG:text:mom1:0000001A:O:W:_position:69
+RG:text:mom1:0000001F:O:W:_buffer:71
+RG:text:mom1:00000039:O:W:_position:128
+RG:text:mom1:00000041:O:W:_position:134
+RG:text:mom1:00000047:O:W:_position:137
+RG:text:mom1:0000004A:O:W:_buffer:138
+RG:text:mom1:00000054:O:W:_printf:145
+G:text:mom1:00000001:_producer
+G:text:mom1:00000036:_consumer
+G:bss:mom1:0000001A:_position
+G:bss:mom1:00000000:_buffer
+SY:C:M:mom1$Z:/Skola/Realtidssystem/lab1/mom1.c
+SY:C:S:G:mom1:buffer:_buffer:(typ16-mom1)
+SY:C:S:G:mom1:position:_position:(typ11)
+SY:C:F:mom1:text:_producer:00000001:8
+SY:C:X:mom1:8:1:text:1
+SY:C:S:F:mom1:producer:_producer:(typ0)(typ0)
+SY:C:S:F:mom1:__func__:___func__:(typ11)
+SY:C:S:L:mom1:producer:tecken:0:(typ3)
+SY:C:X:mom1:11:2:text:3
+SY:C:X:mom1:12:2:text:9
+SY:C:X:mom1:13:1:text:D
+SY:C:X:mom1:15:23:text:D
+SY:C:X:mom1:17:4:text:15
+SY:C:X:mom1:18:19:text:27
+SY:C:X:mom1:20:5:text:2B
+SY:C:X:mom1:24:5:text:31
+SY:C:X:mom1:28:1:text:35
+SY:C:Z:mom1:28:1:text:35
+SY:C:E:mom1:text:_producer:00000035:28
+SY:C:F:mom1:text:_consumer:00000036:30
+SY:C:X:mom1:30:1:text:36
+SY:C:S:F:mom1:consumer:_consumer:(typ0)(typ0)
+SY:C:S:F:mom1:__func__:___func__:(typ11)
+SY:C:S:L:mom1:consumer:tecken:0:(typ3)
+SY:C:X:mom1:33:1:text:38
+SY:C:X:mom1:35:18:text:38
+SY:C:X:mom1:37:4:text:40
+SY:C:X:mom1:38:4:text:52
+SY:C:X:mom1:41:1:text:5A
+SY:C:Z:mom1:41:1:text:5A
+SY:C:E:mom1:text:_consumer:0000005A:41
+SY:C:T:  typ0 V (-1)
+SY:C:T:  typ1 L (4)
+SY:C:T:  typ2 l (4)
+SY:C:T:  typ3 C (1)
+SY:C:T:  typ4 c (1)
+SY:C:T:  typ5 S (2)
+SY:C:T:  typ6 s (2)
+SY:C:T:  typ7 g (4)
+SY:C:T:  typ8 G (4)
+SY:C:T:  typ9 h (4)
+SY:C:T:  typ10 R (2)
+SY:C:T:  typ11 I (2)
+SY:C:T:  typ12 i (2)
+SY:C:T:  typ13 E (2)
+SY:C:T:  typ14 F (2)
+SY:C:T:  typ15 P (2)
+SY:C:T:mom1: typ16-mom1 A (26)(typ3)
+SY:C:T: typ2 l (4)
+SY:C:T: typ4 c (1)
+SY:C:T: typ6 s (2)
+e

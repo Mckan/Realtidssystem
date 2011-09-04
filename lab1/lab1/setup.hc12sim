@@ -1,0 +1,4 @@
+:iotarget:10:1:208:-1:
+:emul:1
+:debug:1
+:targ:MC9S12DG256
