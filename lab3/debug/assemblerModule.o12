@@ -1,0 +1,127 @@
+mod:assemblerModule:O12:assemblerModule.o12
+seg:text:156
+seg:abs:0
+seg:bss:2
+C:text	3E3D790B01CE00007E3FF07EFFF0CE00
+C:text	007E3FF27EFFF210EF3D87F60B01C501
+C:text	2707C6047C0000203CC5022707C6027C
+C:text	00002031C5042707C6017C00002026C5
+C:text	082707C6017C0000201BC5102707C610
+C:text	7C00002010C5202707C6087C00002005
+C:text	C6007C0000790B010B35B776EC44860C
+C:text	12270D7C000086797A003B180B80003B
+C:text	313D1C00AD80FC000027078300017C00
+C:text	000B79003BCC00007C00000B
+C:bss	0000
+RG:text:assemblerModule:00000025:O:W:_interrupt_type:79
+RG:text:assemblerModule:00000030:O:W:_interrupt_type:85
+RG:text:assemblerModule:0000003B:O:W:_interrupt_type:91
+RG:text:assemblerModule:00000046:O:W:_interrupt_type:97
+RG:text:assemblerModule:00000051:O:W:_interrupt_type:103
+RG:text:assemblerModule:0000005C:O:W:_interrupt_type:109
+RG:text:assemblerModule:00000063:O:W:_interrupt_type:113
+RG:text:assemblerModule:00000099:O:W:_interrupt_type:154
+RL:text:assemblerModule:00000006:O:W:00000082:text:58
+RL:text:assemblerModule:0000000F:O:W:0000001A:text:62
+RL:text:assemblerModule:00000074:O:W:00000000:bss:132
+RL:text:assemblerModule:00000087:O:W:00000000:bss:144
+RL:text:assemblerModule:0000008F:O:W:00000000:bss:147
+RL:text:assemblerModule:00000096:O:W:00000092:text:153
+G:text:assemblerModule:00000069:_set_timeout
+G:text:assemblerModule:00000000:_standby
+G:text:assemblerModule:00000002:_init_irq
+SY:A:M:assemblerModule$Z:/Skola/Realtidssystem/lab2/lab2/assemblerModule.s12
+SY:A:X:assemblerModule:45:text:0
+SY:A:X:assemblerModule:46:text:1
+SY:A:X:assemblerModule:56:text:2
+SY:A:X:assemblerModule:58:text:5
+SY:A:X:assemblerModule:59:text:8
+SY:A:X:assemblerModule:60:text:B
+SY:A:X:assemblerModule:62:text:E
+SY:A:X:assemblerModule:63:text:11
+SY:A:X:assemblerModule:64:text:14
+SY:A:X:assemblerModule:66:text:17
+SY:A:X:assemblerModule:67:text:19
+SY:A:X:assemblerModule:74:text:1A
+SY:A:X:assemblerModule:75:text:1B
+SY:A:X:assemblerModule:76:text:1E
+SY:A:X:assemblerModule:77:text:20
+SY:A:X:assemblerModule:78:text:22
+SY:A:X:assemblerModule:79:text:24
+SY:A:X:assemblerModule:80:text:27
+SY:A:X:assemblerModule:82:text:29
+SY:A:X:assemblerModule:83:text:2B
+SY:A:X:assemblerModule:84:text:2D
+SY:A:X:assemblerModule:85:text:2F
+SY:A:X:assemblerModule:86:text:32
+SY:A:X:assemblerModule:88:text:34
+SY:A:X:assemblerModule:89:text:36
+SY:A:X:assemblerModule:90:text:38
+SY:A:X:assemblerModule:91:text:3A
+SY:A:X:assemblerModule:92:text:3D
+SY:A:X:assemblerModule:94:text:3F
+SY:A:X:assemblerModule:95:text:41
+SY:A:X:assemblerModule:96:text:43
+SY:A:X:assemblerModule:97:text:45
+SY:A:X:assemblerModule:98:text:48
+SY:A:X:assemblerModule:100:text:4A
+SY:A:X:assemblerModule:101:text:4C
+SY:A:X:assemblerModule:102:text:4E
+SY:A:X:assemblerModule:103:text:50
+SY:A:X:assemblerModule:104:text:53
+SY:A:X:assemblerModule:106:text:55
+SY:A:X:assemblerModule:107:text:57
+SY:A:X:assemblerModule:108:text:59
+SY:A:X:assemblerModule:109:text:5B
+SY:A:X:assemblerModule:110:text:5E
+SY:A:X:assemblerModule:112:text:60
+SY:A:X:assemblerModule:113:text:62
+SY:A:X:assemblerModule:115:text:65
+SY:A:X:assemblerModule:116:text:68
+SY:A:X:assemblerModule:122:text:69
+SY:A:X:assemblerModule:123:text:6A
+SY:A:X:assemblerModule:124:text:6C
+SY:A:X:assemblerModule:128:text:6E
+SY:A:X:assemblerModule:129:text:70
+SY:A:X:assemblerModule:131:text:71
+SY:A:X:assemblerModule:132:text:73
+SY:A:X:assemblerModule:133:text:76
+SY:A:X:assemblerModule:134:text:78
+SY:A:X:assemblerModule:135:text:7B
+SY:A:X:assemblerModule:138:text:80
+SY:A:X:assemblerModule:139:text:81
+SY:A:X:assemblerModule:143:text:82
+SY:A:X:assemblerModule:144:text:86
+SY:A:X:assemblerModule:145:text:89
+SY:A:X:assemblerModule:146:text:8B
+SY:A:X:assemblerModule:147:text:8E
+SY:A:X:assemblerModule:148:text:91
+SY:A:X:assemblerModule:152:text:92
+SY:A:X:assemblerModule:153:text:95
+SY:A:X:assemblerModule:154:text:98
+SY:A:X:assemblerModule:155:text:9B
+SY:C:T: typ2 l (4)
+SY:C:T: typ4 c (1)
+SY:C:T: typ6 s (2)
+SY:C:T:assemblerModule: typ16-assemblerModule A (0)(typ4)
+SY:C:T:assemblerModule: typ17-assemblerModule A (2)(typ4)
+SY:C:S:S:assemblerModule:RTIF:(typ16-assemblerModule)
+SY:C:S:S:assemblerModule:TIMEBASE:(typ16-assemblerModule)
+SY:C:S:S:assemblerModule:CLOSED_DOOR:(typ16-assemblerModule)
+SY:C:S:S:assemblerModule:OPENED_DOOR:(typ16-assemblerModule)
+SY:A:F:assemblerModule:text:_standby:00000000:43
+SY:A:E:assemblerModule:text:_standby:2:47
+SY:C:S:S:assemblerModule:TIME_OUT:(typ16-assemblerModule)
+SY:C:S:S:assemblerModule:NO_IRQ_TYPE:(typ16-assemblerModule)
+SY:C:S:S:assemblerModule:ML13_IRQ_STATUS:(typ16-assemblerModule)
+SY:C:S:S:assemblerModule:delay_count:(typ17-assemblerModule)
+SY:C:S:S:assemblerModule:CLOSING_DOOR:(typ16-assemblerModule)
+SY:C:S:S:assemblerModule:OPENING_DOOR:(typ16-assemblerModule)
+SY:A:F:assemblerModule:text:_init_irq:00000002:55
+SY:A:E:assemblerModule:text:_init_irq:1A:68
+SY:C:S:S:assemblerModule:CRGINT:(typ16-assemblerModule)
+SY:C:S:S:assemblerModule:ML13_IRQ_CONTROL:(typ16-assemblerModule)
+SY:C:S:S:assemblerModule:RTICTL:(typ16-assemblerModule)
+SY:C:S:S:assemblerModule:SENSOR:(typ16-assemblerModule)
+SY:C:S:S:assemblerModule:CRGFLAG:(typ16-assemblerModule)
+e

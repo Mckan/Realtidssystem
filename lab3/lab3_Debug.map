@@ -1,0 +1,91 @@
+QLD (Version 4.8.0)- Link/Load Summary: 'debug\lab3_Debug.s19'
+SCRIPT FILES FROM THE FOLLOWING PATH(S):
+  'C:/Program Files/GMV/EducDist/config/xcc12'
+
+SCRIPT READ FROM THE FOLLOWING FILE(S):
+  'default.lsc'
+
+---------------------------
+ SEARCHED LIBRARIES:
+ 'C:/Program Files/GMV/EducDist/lib/xcc12/libcd.e12'
+ 'C:/Program Files/GMV/EducDist/lib/xcc12/libed.e12'
+ 'C:/Program Files/GMV/EducDist/lib/xcc12/librtkd.e12'
+ 'C:/Program Files/GMV/EducDist/lib/xcc12/libccd.e12'
+
+---------------------------
+ PROGRAM ENTRY:'__start'
+---------------------------
+ GROUPS AND SEGMENTS:
+
+  GROUP 'const_group',
+   SEGMENTS
+   'abs'
+
+  GROUP 'test_group', READ ONLY ,allocation to: 00001000 - 000011BB, (size: 444 Bytes)
+   00001000 00001015 'init'
+   00001016 000011A9 'text'
+   000011AA 000011BB 'bss'
+
+  GROUP 'interrupt_vectors', READ ONLY
+   NO SEGMENTS
+---------------------------
+LINKER DEFINED CONSTANTS:
+   __rom_code_enabled = 0
+   __heap_start = 000011BC
+  from segment 'text'
+   00001016 '__text__start'
+   000011AA '__text__end'
+   00000194 '__text__size'
+  from segment 'init'
+   00001000 '__init__start'
+   00001016 '__init__end'
+   00000016 '__init__size'
+  from segment 'bss'
+   000011AA '__bss__start'
+   000011BC '__bss__end'
+   00000012 '__bss__size'
+  from segment 'data'
+   00000000 '__data__start'
+   00000000 '__data__end'
+   00000000 '__data__size'
+  from segment 'rodata'
+   00000000 '__rodata__start'
+   00000000 '__rodata__end'
+   00000000 '__rodata__size'
+---------------------------
+GLOBAL SYMBOL(S):
+
+ in module: '_startup' of type 'O12' defined in file '_startup.o12'
+  in segment: 'text'
+   0000102B '__inchar'
+   00001019 '__init'
+   00001025 '__outchar'
+   00001028 '__tstchar'
+   00001016 '__lowexit'
+  in segment: 'init'
+   00001000 '__start'
+
+ in module: 'mom' of type 'O12' defined in file 'mom.o12'
+  in segment: 'text'
+   00001032 '_main'
+  in segment: 'bss'
+   000011AA '_interrupt_type'
+
+ in module: 'mom3_low' of type 'O12' defined in file 'mom3-low.o12'
+  in segment: 'text'
+   000010FD '_set_timeout'
+   00001094 '_standby'
+   000010AE 'ML13_irq'
+   00001096 '_init_irq'
+
+ in module: '__crt' of type 'O12' defined in file '__crt.o12'
+  in segment: 'text'
+   00001130 '___crt_get_system_time'
+   00001137 '___crt_get_msec_ptr'
+   0000113B '___crtInit'
+  in segment: 'bss'
+   000011AE '___crt_first_malloc_element'
+   000011B0 '___crt_first_malloc_element_m_base'
+   000011B2 '___crt_first_malloc_element_m_size'
+---
+ End of listfile

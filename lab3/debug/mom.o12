@@ -1,0 +1,72 @@
+mod:mom:O12:mom.o12
+seg:text:99
+seg:bss:2
+seg:data:0
+seg:rodata:0
+C:text	A71B9ECC00026C8016000087C77C0000
+C:text	160000FC00008C000127138C0002271C
+C:text	8C0004271E8C0020272918200031EC80
+C:text	8C00022605C6017B0B012023CC00026C
+C:text	80201CCC00046C80CC001E3B1600001B
+C:text	82200CEC808C00042605C6027B0B0118
+C:text	20FFA8
+C:bss	0000
+RG:text:mom:00000009:O:W:_init_irq:103
+RG:text:mom:0000000E:O:W:_interrupt_type:114
+RG:text:mom:00000011:O:W:_standby:119
+RG:text:mom:00000014:O:W:_interrupt_type:125
+RG:text:mom:0000004D:O:W:_set_timeout:176
+G:text:mom:00000001:_main
+G:bss:mom:00000000:_interrupt_type
+SY:C:M:mom$Z:/Skola/Realtidssystem/lab3/mom.c
+SY:C:S:G:mom:interrupt_type:_interrupt_type:(typ11)
+SY:C:F:mom:text:_main:00000001:62
+SY:C:X:mom:62:1:text:1
+SY:C:S:F:mom:main:_main:(typ11)
+SY:C:S:F:mom:__func__:___func__:(typ11)
+SY:C:S:L:mom:main:door:0:(typ12)
+SY:C:X:mom:65:20:text:3
+SY:C:X:mom:66:2:text:8
+SY:C:X:mom:68:1:text:B
+SY:C:X:mom:71:3:text:B
+SY:C:X:mom:74:3:text:10
+SY:C:X:mom:78:2:text:13
+SY:C:X:mom:81:3:text:2E
+SY:C:X:mom:82:19:text:2E
+SY:C:X:mom:83:2:text:35
+SY:C:X:mom:84:5:text:3A
+SY:C:X:mom:86:3:text:3C
+SY:C:X:mom:87:5:text:3C
+SY:C:X:mom:88:5:text:41
+SY:C:X:mom:90:3:text:43
+SY:C:X:mom:91:5:text:43
+SY:C:X:mom:92:5:text:48
+SY:C:X:mom:93:5:text:51
+SY:C:X:mom:95:3:text:53
+SY:C:X:mom:96:19:text:53
+SY:C:X:mom:97:2:text:5A
+SY:C:X:mom:98:5:text:5F
+SY:C:X:mom:101:1:text:63
+SY:C:X:mom:102:1:text:63
+SY:C:Z:mom:102:1:text:63
+SY:C:E:mom:text:_main:00000063:102
+SY:C:T:  typ0 V (-1)
+SY:C:T:  typ1 L (4)
+SY:C:T:  typ2 l (4)
+SY:C:T:  typ3 C (1)
+SY:C:T:  typ4 c (1)
+SY:C:T:  typ5 S (2)
+SY:C:T:  typ6 s (2)
+SY:C:T:  typ7 g (4)
+SY:C:T:  typ8 G (4)
+SY:C:T:  typ9 h (4)
+SY:C:T:  typ10 R (2)
+SY:C:T:  typ11 I (2)
+SY:C:T:  typ12 i (2)
+SY:C:T:  typ13 E (2)
+SY:C:T:  typ14 F (2)
+SY:C:T:  typ15 P (2)
+SY:C:T: typ2 l (4)
+SY:C:T: typ4 c (1)
+SY:C:T: typ6 s (2)
+e

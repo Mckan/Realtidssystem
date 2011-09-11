@@ -1,0 +1,58 @@
+mod:_startup:O12:_startup.o12
+seg:text:27
+seg:abs:0
+seg:init:21
+C:text	06C00FF7001B26061803000100C83D06
+C:text	C00606C00307FBD727FB3D
+C:init	CF3C80160000CE3B80341600001B8216
+C:init	0000060000
+RG:init:_startup:0000000B:O:W:___crtInit:37
+RG:init:_startup:00000010:O:W:_main:40
+RG:init:_startup:00000013:O:W:__lowexit:41
+RL:init:_startup:00000004:O:W:00000003:text:30
+G:text:_startup:00000015:__inchar
+G:text:_startup:00000003:__init
+G:text:_startup:0000000F:__outchar
+G:text:_startup:00000012:__tstchar
+G:text:_startup:00000000:__lowexit
+G:init:_startup:00000000:__start
+SY:A:M:_startup$C:/Program Files/GMV/EducDist/src/startup/xcc12/_startup.s12
+SY:A:X:_startup:29:init:0
+SY:A:X:_startup:30:init:3
+SY:A:X:_startup:32:init:6
+SY:A:X:_startup:33:init:9
+SY:A:X:_startup:37:init:A
+SY:A:X:_startup:39:init:D
+SY:A:X:_startup:40:init:F
+SY:A:X:_startup:41:init:12
+SY:A:X:_startup:52:text:0
+SY:A:X:_startup:64:text:3
+SY:A:X:_startup:65:text:6
+SY:A:X:_startup:67:text:8
+SY:A:X:_startup:69:text:E
+SY:A:X:_startup:82:text:F
+SY:A:X:_startup:88:text:12
+SY:A:X:_startup:94:text:15
+SY:A:X:_startup:95:text:17
+SY:A:X:_startup:96:text:18
+SY:A:X:_startup:97:text:1A
+SY:C:T: typ2 l (4)
+SY:C:T: typ4 c (1)
+SY:C:T: typ6 s (2)
+SY:C:T:_startup: typ16-_startup A (0)(typ4)
+SY:C:S:S:_startup:STACK_S:(typ16-_startup)
+SY:A:F:_startup:text:__inchar:00000015:93
+SY:A:E:_startup:text:__inchar:1B:98
+SY:A:F:_startup:text:__init:00000003:64
+SY:A:E:_startup:text:__init:F:70
+SY:A:F:_startup:text:__outchar:0000000F:81
+SY:A:E:_startup:text:__outchar:12:83
+SY:A:F:_startup:text:__tstchar:00000012:87
+SY:A:E:_startup:text:__tstchar:15:89
+SY:A:F:_startup:text:__lowexit:00000000:51
+SY:A:E:_startup:text:__lowexit:3:53
+SY:C:S:S:_startup:BOS:(typ16-_startup)
+SY:A:F:_startup:init:__start:00000000:28
+SY:A:E:_startup:init:__start:15:42
+SY:C:S:S:_startup:TOS:(typ16-_startup)
+e

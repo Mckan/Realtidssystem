@@ -1,0 +1,68 @@
+mod:mom:O12:mom.o12
+seg:text:126
+seg:bss:0
+seg:data:0
+seg:rodata:0
+C:text	A71B9ACC00016C80EC808C0000182700
+C:text	69F60B00C40318270060C6017B0B00F6
+C:text	0B00C40827F9CC00016C82EC828C0000
+C:text	1827004687C76C84EC848C00FF2412F6
+C:text	0B00C403270487C76C84EE84086E8420
+C:text	E787C76C82C6027B0B00F60B00C43226
+C:text	15F60B00C403270CC6017B0B00CC0001
+C:text	6C82200220E41820FFB11820FF8A
+G:text:mom:00000001:_main
+SY:C:M:mom$Z:/Skola/Realtidssystem/lab2/lab2/mom.c
+SY:C:F:mom:text:_main:00000001:46
+SY:C:X:mom:46:1:text:1
+SY:C:S:F:mom:main:_main:(typ11)(typ11)(typ16-mom)
+SY:C:S:L:mom:main:argc:8:(typ11)
+SY:C:S:L:mom:main:argv:10:(typ11)
+SY:C:S:F:mom:__func__:___func__:(typ11)
+SY:C:S:L:mom:main:i:4:(typ12)
+SY:C:S:L:mom:main:attemptClose:2:(typ12)
+SY:C:S:L:mom:main:doorUnlocked:0:(typ12)
+SY:C:X:mom:52:2:text:3
+SY:C:X:mom:53:1:text:8
+SY:C:X:mom:56:5:text:8
+SY:C:X:mom:59:29:text:11
+SY:C:X:mom:62:2:text:1A
+SY:C:X:mom:65:4:text:1F
+SY:C:X:mom:68:5:text:26
+SY:C:X:mom:69:4:text:2B
+SY:C:X:mom:72:5:text:34
+SY:C:X:mom:75:32:text:3F
+SY:C:X:mom:78:8:text:46
+SY:C:X:mom:72:24:text:4A
+SY:C:X:mom:83:6:text:51
+SY:C:X:mom:84:2:text:55
+SY:C:X:mom:87:5:text:5A
+SY:C:X:mom:90:32:text:61
+SY:C:X:mom:93:2:text:68
+SY:C:X:mom:96:8:text:6D
+SY:C:X:mom:97:8:text:72
+SY:C:X:mom:105:1:text:7E
+SY:C:X:mom:106:1:text:7E
+SY:C:Z:mom:106:1:text:7E
+SY:C:E:mom:text:_main:0000007E:106
+SY:C:T:  typ0 V (-1)
+SY:C:T:  typ1 L (4)
+SY:C:T:  typ2 l (4)
+SY:C:T:  typ3 C (1)
+SY:C:T:  typ4 c (1)
+SY:C:T:  typ5 S (2)
+SY:C:T:  typ6 s (2)
+SY:C:T:  typ7 g (4)
+SY:C:T:  typ8 G (4)
+SY:C:T:  typ9 h (4)
+SY:C:T:  typ10 R (2)
+SY:C:T:  typ11 I (2)
+SY:C:T:  typ12 i (2)
+SY:C:T:  typ13 E (2)
+SY:C:T:  typ14 F (2)
+SY:C:T:  typ15 P (2)
+SY:C:T:mom: typ16-mom A (-1)*(typ3)
+SY:C:T: typ2 l (4)
+SY:C:T: typ4 c (1)
+SY:C:T: typ6 s (2)
+e

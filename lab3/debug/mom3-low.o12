@@ -1,0 +1,128 @@
+mod:mom3_low:O12:mom3-low.o12
+seg:text:156
+seg:abs:0
+seg:bss:2
+C:text	3E3D790B01CE00007E3FF07EFFF0CE00
+C:text	007E3FF27EFFF210EF3D87F60B01C501
+C:text	2707C6047C0000203CC5022707C6027C
+C:text	00002031C5042707C6017C00002026C5
+C:text	082707C6017C0000201BC5102707C610
+C:text	7C00002010C5202707C6087C00002005
+C:text	C6007C0000790B010B
+C:text	35B776EC44860C12270D7C000086797A
+C:text	003B180B800038313D1C003780FC0000
+C:text	27078300017C00000B79003BCC00207C
+C:text	00000B
+C:bss	0000
+RG:text:mom3_low:0000000F:O:W:ML13_irq:67
+RG:text:mom3_low:00000025:O:W:_interrupt_type:81
+RG:text:mom3_low:00000030:O:W:_interrupt_type:87
+RG:text:mom3_low:0000003B:O:W:_interrupt_type:93
+RG:text:mom3_low:00000046:O:W:_interrupt_type:99
+RG:text:mom3_low:00000051:O:W:_interrupt_type:105
+RG:text:mom3_low:0000005C:O:W:_interrupt_type:111
+RG:text:mom3_low:00000063:O:W:_interrupt_type:115
+RG:text:mom3_low:00000099:O:W:_interrupt_type:163
+RL:text:mom3_low:00000006:O:W:00000082:text:60
+RL:text:mom3_low:00000074:O:W:00000000:bss:139
+RL:text:mom3_low:00000087:O:W:00000000:bss:153
+RL:text:mom3_low:0000008F:O:W:00000000:bss:156
+G:text:mom3_low:00000069:_set_timeout
+G:text:mom3_low:00000000:_standby
+G:text:mom3_low:0000001A:ML13_irq
+G:text:mom3_low:00000002:_init_irq
+SY:A:M:mom3_low$C:/Documents and Settings/Administrator/My Documents/Downloads/filer_mom_1_3 (1)/mom3-low.s12
+SY:A:X:mom3_low:43:text:0
+SY:A:X:mom3_low:44:text:1
+SY:A:X:mom3_low:58:text:2
+SY:A:X:mom3_low:60:text:5
+SY:A:X:mom3_low:61:text:8
+SY:A:X:mom3_low:64:text:B
+SY:A:X:mom3_low:67:text:E
+SY:A:X:mom3_low:68:text:11
+SY:A:X:mom3_low:69:text:14
+SY:A:X:mom3_low:71:text:17
+SY:A:X:mom3_low:72:text:19
+SY:A:X:mom3_low:76:text:1A
+SY:A:X:mom3_low:77:text:1B
+SY:A:X:mom3_low:78:text:1E
+SY:A:X:mom3_low:79:text:20
+SY:A:X:mom3_low:80:text:22
+SY:A:X:mom3_low:81:text:24
+SY:A:X:mom3_low:82:text:27
+SY:A:X:mom3_low:84:text:29
+SY:A:X:mom3_low:85:text:2B
+SY:A:X:mom3_low:86:text:2D
+SY:A:X:mom3_low:87:text:2F
+SY:A:X:mom3_low:88:text:32
+SY:A:X:mom3_low:90:text:34
+SY:A:X:mom3_low:91:text:36
+SY:A:X:mom3_low:92:text:38
+SY:A:X:mom3_low:93:text:3A
+SY:A:X:mom3_low:94:text:3D
+SY:A:X:mom3_low:96:text:3F
+SY:A:X:mom3_low:97:text:41
+SY:A:X:mom3_low:98:text:43
+SY:A:X:mom3_low:99:text:45
+SY:A:X:mom3_low:100:text:48
+SY:A:X:mom3_low:102:text:4A
+SY:A:X:mom3_low:103:text:4C
+SY:A:X:mom3_low:104:text:4E
+SY:A:X:mom3_low:105:text:50
+SY:A:X:mom3_low:106:text:53
+SY:A:X:mom3_low:108:text:55
+SY:A:X:mom3_low:109:text:57
+SY:A:X:mom3_low:110:text:59
+SY:A:X:mom3_low:111:text:5B
+SY:A:X:mom3_low:112:text:5E
+SY:A:X:mom3_low:114:text:60
+SY:A:X:mom3_low:115:text:62
+SY:A:X:mom3_low:116:text:65
+SY:A:X:mom3_low:117:text:68
+SY:A:X:mom3_low:127:text:69
+SY:A:X:mom3_low:128:text:6A
+SY:A:X:mom3_low:129:text:6C
+SY:A:X:mom3_low:135:text:6E
+SY:A:X:mom3_low:136:text:70
+SY:A:X:mom3_low:138:text:71
+SY:A:X:mom3_low:139:text:73
+SY:A:X:mom3_low:140:text:76
+SY:A:X:mom3_low:141:text:78
+SY:A:X:mom3_low:142:text:7B
+SY:A:X:mom3_low:144:text:80
+SY:A:X:mom3_low:145:text:81
+SY:A:X:mom3_low:152:text:82
+SY:A:X:mom3_low:153:text:86
+SY:A:X:mom3_low:154:text:89
+SY:A:X:mom3_low:155:text:8B
+SY:A:X:mom3_low:156:text:8E
+SY:A:X:mom3_low:157:text:91
+SY:A:X:mom3_low:161:text:92
+SY:A:X:mom3_low:162:text:95
+SY:A:X:mom3_low:163:text:98
+SY:A:X:mom3_low:164:text:9B
+SY:C:T: typ2 l (4)
+SY:C:T: typ4 c (1)
+SY:C:T: typ6 s (2)
+SY:C:T:mom3_low: typ16-mom3_low A (0)(typ4)
+SY:C:T:mom3_low: typ17-mom3_low A (2)(typ4)
+SY:C:S:S:mom3_low:TimeBase:(typ16-mom3_low)
+SY:C:S:S:mom3_low:ML13_IRQ_Status:(typ16-mom3_low)
+SY:C:S:S:mom3_low:RTIF:(typ16-mom3_low)
+SY:C:S:S:mom3_low:CLOSED_DOOR:(typ16-mom3_low)
+SY:C:S:S:mom3_low:OPENED_DOOR:(typ16-mom3_low)
+SY:A:F:mom3_low:text:_standby:00000000:42
+SY:A:E:mom3_low:text:_standby:2:45
+SY:C:S:S:mom3_low:TIME_OUT:(typ16-mom3_low)
+SY:C:S:S:mom3_low:ML13_IRQ_Control:(typ16-mom3_low)
+SY:C:S:S:mom3_low:NO_IRQ_TYPE:(typ16-mom3_low)
+SY:C:S:S:mom3_low:delay_count:(typ17-mom3_low)
+SY:C:S:S:mom3_low:CLOSING_DOOR:(typ16-mom3_low)
+SY:C:S:S:mom3_low:OPENING_DOOR:(typ16-mom3_low)
+SY:C:S:S:mom3_low:CRGFLG:(typ16-mom3_low)
+SY:A:F:mom3_low:text:_init_irq:00000002:57
+SY:A:E:mom3_low:text:_init_irq:1A:73
+SY:C:S:S:mom3_low:CRGINT:(typ16-mom3_low)
+SY:C:S:S:mom3_low:RTICTL:(typ16-mom3_low)
+SY:C:S:S:mom3_low:SENSOR:(typ16-mom3_low)
+e

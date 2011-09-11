@@ -1,0 +1,167 @@
+* Assemblerrutiner för händelsestyr dörrautomat *
+
+************************************************
+** KONSTANTER
+************************************************
+	segment abs
+ML13_IRQ_STATUS		EQU	$B01
+ML13_IRQ_CONTROL	EQU	$B01
+
+NO_IRQ_TYPE		EQU	0
+SENSOR			EQU	1
+CLOSED_DOOR		EQU	2
+OPENED_DOOR		EQU	4
+CLOSING_DOOR		EQU	8
+OPENING_DOOR		EQU	16
+TIME_OUT		EQU	32
+
+************************************************
+** HC12 DEFINITIONER
+************************************************
+CRGFLAG			EQU	$37
+CRGINT			EQU	$3B
+RTICTL			EQU	$3B
+RTIF			EQU	$80
+
+************************************************
+** TIDSBAS
+************************************************
+#ifdef SIM
+TIMEBASE		EQU	%00010000	Kortast möjliga
+#else
+TIMEBASE		EQU	%01111001	Längsta möjliga
+#endif
+
+************************************************
+** LOGIK
+************************************************
+	segment	text
+	define	_standby		Definera standby för att kunna använda funktionen i C
+	entry	_standby
+*
+* Vänta på avbrott
+_standby:				
+*					Standby rutin som väntar på avbrott
+	WAI				Vänta på avbrott
+	RTS
+	exit	_standby
+*	
+	extern	_interrupt_type		Importera interrypt_type från C för att kunna skicka vidare avbrottstypen
+*
+	define	_init_irq(void)		Sätt upp för avbrott från ML13
+	entry	_init_irq
+*
+* Initiera IRQ
+_init_irq:
+	CLR	ML13_IRQ_CONTROL	Nollställ kontrollregistret och kvittera avbrottet
+*
+	LDX	#timirq			Initiera timer-avbrottsvektor
+	STX	$3FF0			Sätt vektorn i hårdvaran
+	STX	$FFF0			Sätt vektorn i simulatorn
+*
+	LDX	#ML13_irq		Initiera vanlig avbrottsvektor
+	STX	$3FF2			Sätt vektorn i hårdvaran
+	STX	$FFF2			Sätt vektorn i simulatorn
+*
+	CLI				Nollställ flaggan och acceptera avbrottet
+	RTS
+	exit	_init_irq
+*
+* Avbrottsrutin
+* Läser i IRQ status reg och bestämmer avbrottskälla. 
+* Ger sedan ett värde till global variabel. Den skall sedan plockas upp i main()
+ML13_irq:
+	CLRA
+	LDAB	ML13_IRQ_STATUS		Ladda in status i register
+	BITB	#1			
+	BEQ	n1
+	LDAB	#OPENED_DOOR
+	STD	_interrupt_type
+	BRA	n7
+*
+n1	BITB	#2
+	BEQ	n2
+	LDAB	#CLOSED_DOOR
+	STD	_interrupt_type
+	BRA	n7
+*
+n2	BITB	#4
+	BEQ	n3
+	LDAB	#SENSOR
+	STD	_interrupt_type
+	BRA	n7
+*
+n3	BITB	#8
+	BEQ	n4
+	LDAB	#SENSOR
+	STD	_interrupt_type
+	BRA	n7
+*
+n4	BITB	#16
+	BEQ	n5
+	LDAB	#OPENING_DOOR
+	STD	_interrupt_type
+	BRA	n7
+*
+n5	BITB	#32
+	BEQ	n6
+	LDAB	#CLOSING_DOOR
+	STD	_interrupt_type
+	BRA	n7
+*
+n6	LDAB	#NO_IRQ_TYPE
+	STD	_interrupt_type
+*
+n7	CLR	ML13_IRQ_CONTROL	Kvittera avbrottet
+	RTI
+*
+* Timeout rutin
+	define	_set_timeout
+*
+_set_timeout:
+	PSHY
+	TSY
+	LDD	4,Y			Antal sekunders fördröjning
+*
+* Med 8MHz HC12 har vi längsta tidsbas på 10 * 2 * 16 = 655360 cykler
+* = 0,08192 sekunder => 12,2 avbrott/sekund
+	LDAA	#12
+	MUL				Antal avbrott innan timeout
+*
+	BEQ	set_time_exit		
+	STD	delay_count
+	LDAA	#TIMEBASE
+	STAA	RTICTL
+	MOVB	#$80,CRGINT		Sätt RTIE
+*
+set_time_exit:
+	PULY
+	RTS
+*
+* Avbrott från realtidsklockan
+timirq:
+	BSET	CRGINT+RTICTL+CRGFLAG,#RTIF
+	LDD	delay_count
+	BEQ	timeout
+	SUBD	#1
+	STD	delay_count
+	RTI
+*
+* Vid timeout, stanna timerkretsen
+timeout:
+	CLR	RTICTL
+	LDD	#timeout
+	STD	_interrupt_type
+	RTI
+
+************************************************
+** VARIABLER
+************************************************
+	BSS
+*
+* Delay variabel
+delay_count:
+	RMB	2
+
+	
+* END OF FILE *

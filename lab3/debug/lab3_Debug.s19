@@ -1,0 +1,276 @@
+S0030000FC
+S1191000CF3C80161019CE3B803416113B1B821610320610163A92
+S123101606C00FF7001B26061803000100C83D06C00606C00307FBD727FB3DA71B9ECC0089
+S1231036026C8016109687C77C11AA161094FC11AA8C000127138C0002271C8C0004271E89
+S12310568C0020272918200031EC808C00022605C6017B0B012023CC00026C80201CCC0099
+S1231076046C80CC001E3B1610FD1B82200CEC808C00042605C6027B0B011820FFA83E3D85
+S1231096790B01CE11167E3FF07EFFF0CE10AE7E3FF27EFFF210EF3D87F60B01C50127073F
+S12310B6C6047C11AA203CC5022707C6027C11AA2031C5042707C6017C11AA2026C5082745
+S12310D607C6017C11AA201BC5102707C6107C11AA2010C5202707C6087C11AA2005C60073
+S12310F67C11AA790B010B35B776EC44860C12270D7C11AC86797A003B180B800038313D6F
+S12311161C003780FC11AC27078300017C11AC0B79003BCC00207C11AA0BFD11B8FC11BAC4
+S12311363DCC11B83D1B9CCC11AA6C80EC808C11BC2408EE8069306E8020F1CC00008C000D
+S123115600271FCC11BC6C80CC00006C82EC828C0000240EEE80ED82E6706B306E806D8219
+S123117620EBCC11BC7C11AEEC868311BC6CFB0027FE11AE87C76C02FC11AE7C11B0ECFBCE
+S117119600167C11B2CD000FCC42407D11B87C11BA1B843D59
+S11511AA0000000000000000000000000000000000002F
+S9031000EC
+SX:C:s:__start
+SX:A:M:_startup$C:/Program Files/GMV/EducDist/src/startup/xcc12/_startup.s12
+SX:C:T: typ2 l (4)
+SX:C:T: typ4 c (1)
+SX:C:T: typ6 s (2)
+SX:C:T:_startup: typ16-_startup A (0)(typ4)
+SX:C:M:mom$Z:/Skola/Realtidssystem/lab3/mom.c
+SX:C:S:F:mom:main:_main:(typ11)
+SX:C:S:F:mom:__func__:___func__:(typ11)
+SX:C:S:L:mom:main:door:0:(typ12)
+SX:C:T:  typ0 V (-1)
+SX:C:T:  typ1 L (4)
+SX:C:T:  typ2 l (4)
+SX:C:T:  typ3 C (1)
+SX:C:T:  typ4 c (1)
+SX:C:T:  typ5 S (2)
+SX:C:T:  typ6 s (2)
+SX:C:T:  typ7 g (4)
+SX:C:T:  typ8 G (4)
+SX:C:T:  typ9 h (4)
+SX:C:T:  typ10 R (2)
+SX:C:T:  typ11 I (2)
+SX:C:T:  typ12 i (2)
+SX:C:T:  typ13 E (2)
+SX:C:T:  typ14 F (2)
+SX:C:T:  typ15 P (2)
+SX:C:T: typ2 l (4)
+SX:C:T: typ4 c (1)
+SX:C:T: typ6 s (2)
+SX:A:M:mom3_low$C:/Documents and Settings/Administrator/My Documents/Downloads/filer_mom_1_3 (1)/mom3-low.s12
+SX:C:T: typ2 l (4)
+SX:C:T: typ4 c (1)
+SX:C:T: typ6 s (2)
+SX:C:T:mom3_low: typ16-mom3_low A (0)(typ4)
+SX:C:T:mom3_low: typ17-mom3_low A (2)(typ4)
+SX:C:M:__crt$../src/libc/common/__crt.c
+SX:C:S:F:__crt:__crtInit:___crtInit:(typ0)(typ30-__crt)
+SX:C:S:L:__crt:__crtInit:bottom_of_stack:6:(typ30-__crt)
+SX:C:S:F:__crt:__func__:___func__:(typ11)
+SX:C:S:L:__crt:__crtInit:src:2:(typ31-__crt)
+SX:C:S:L:__crt:__crtInit:dst:0:(typ32-__crt)
+SX:C:T:  typ0 V (-1)
+SX:C:T:  typ1 L (4)
+SX:C:T:  typ2 l (4)
+SX:C:T:  typ3 C (1)
+SX:C:T:  typ4 c (1)
+SX:C:T:  typ5 S (2)
+SX:C:T:  typ6 s (2)
+SX:C:T:  typ7 g (4)
+SX:C:T:  typ8 G (4)
+SX:C:T:  typ9 h (4)
+SX:C:T:  typ10 R (2)
+SX:C:T:  typ11 I (2)
+SX:C:T:  typ12 i (2)
+SX:C:T:  typ13 E (2)
+SX:C:T:  typ14 F (2)
+SX:C:T:  typ15 P (2)
+SX:C:T:__crt: typ16-__crt Z (4)U float_long {\
+f:(0):(typ8);\
+l:(0):(typ1);\
+}
+SX:C:T:__crt: typ17-__crt Z (4)S elem {\
+sz:(0):(typ12);\
+next:(2):(typ18-__crt);\
+}
+SX:C:T:__crt: typ18-__crt a *(typ17-__crt)
+SX:C:T:__crt: typ19-__crt a *(typ3)
+SX:C:T:__crt: typ20-__crt Z (18)S tm {\
+tm_sec:(0):(typ11);\
+tm_min:(2):(typ11);\
+tm_hour:(4):(typ11);\
+tm_mday:(6):(typ11);\
+tm_mon:(8):(typ11);\
+tm_year:(10):(typ11);\
+tm_wday:(12):(typ11);\
+tm_yday:(14):(typ11);\
+tm_isdst:(16):(typ11);\
+}
+SX:C:T:__crt: typ21-__crt a *(typ3)
+SX:C:T:__crt: typ24-__crt a *(typ11)
+SX:C:T:__crt: typ25-__crt a *(typ3)
+SX:C:T:__crt: typ26-__crt a *(typ3)
+SX:C:T:__crt: typ27-__crt a *(typ3)
+SX:C:T:__crt: typ28-__crt a *(typ3)
+SX:C:T:__crt: typ29-__crt a *(typ3)
+SX:C:T:__crt: typ30-__crt a *(typ4)
+SX:C:T:__crt: typ31-__crt a *(typ3)
+SX:C:T:__crt: typ32-__crt a *(typ3)
+SX:C:T: typ2 l (4)
+SX:C:T: typ4 c (1)
+SX:C:T: typ6 s (2)
+SX:A:X:_startup:29:1000
+SX:A:X:_startup:30:1003
+SX:A:X:_startup:32:1006
+SX:A:X:_startup:33:1009
+SX:A:X:_startup:37:100A
+SX:A:X:_startup:39:100D
+SX:A:X:_startup:40:100F
+SX:A:X:_startup:41:1012
+SX:A:F:_startup:__start:1000:28
+SX:A:E:_startup:__start:1015:42
+SX:A:X:_startup:52:1016
+SX:A:X:_startup:64:1019
+SX:A:X:_startup:65:101C
+SX:A:X:_startup:67:101E
+SX:A:X:_startup:69:1024
+SX:A:X:_startup:82:1025
+SX:A:X:_startup:88:1028
+SX:A:X:_startup:94:102B
+SX:A:X:_startup:95:102D
+SX:A:X:_startup:96:102E
+SX:A:X:_startup:97:1030
+SX:A:F:_startup:__inchar:102B:93
+SX:A:E:_startup:__inchar:1031:98
+SX:A:F:_startup:__init:1019:64
+SX:A:E:_startup:__init:1025:70
+SX:A:F:_startup:__outchar:1025:81
+SX:A:E:_startup:__outchar:1028:83
+SX:A:F:_startup:__tstchar:1028:87
+SX:A:E:_startup:__tstchar:102B:89
+SX:A:F:_startup:__lowexit:1016:51
+SX:A:E:_startup:__lowexit:1019:53
+SX:C:F:mom:_main:00001032:62
+SX:C:X:mom:62:1:1032
+SX:C:X:mom:65:20:1034
+SX:C:X:mom:66:2:1039
+SX:C:X:mom:68:1:103C
+SX:C:X:mom:71:3:103C
+SX:C:X:mom:74:3:1041
+SX:C:X:mom:78:2:1044
+SX:C:X:mom:81:3:105F
+SX:C:X:mom:82:19:105F
+SX:C:X:mom:83:2:1066
+SX:C:X:mom:84:5:106B
+SX:C:X:mom:86:3:106D
+SX:C:X:mom:87:5:106D
+SX:C:X:mom:88:5:1072
+SX:C:X:mom:90:3:1074
+SX:C:X:mom:91:5:1074
+SX:C:X:mom:92:5:1079
+SX:C:X:mom:93:5:1082
+SX:C:X:mom:95:3:1084
+SX:C:X:mom:96:19:1084
+SX:C:X:mom:97:2:108B
+SX:C:X:mom:98:5:1090
+SX:C:X:mom:101:1:1094
+SX:C:X:mom:102:1:1094
+SX:C:Z:mom:102:1:1094
+SX:C:E:mom:_main:00001094:102
+SX:A:X:mom3_low:43:1094
+SX:A:X:mom3_low:44:1095
+SX:A:X:mom3_low:58:1096
+SX:A:X:mom3_low:60:1099
+SX:A:X:mom3_low:61:109C
+SX:A:X:mom3_low:64:109F
+SX:A:X:mom3_low:67:10A2
+SX:A:X:mom3_low:68:10A5
+SX:A:X:mom3_low:69:10A8
+SX:A:X:mom3_low:71:10AB
+SX:A:X:mom3_low:72:10AD
+SX:A:X:mom3_low:76:10AE
+SX:A:X:mom3_low:77:10AF
+SX:A:X:mom3_low:78:10B2
+SX:A:X:mom3_low:79:10B4
+SX:A:X:mom3_low:80:10B6
+SX:A:X:mom3_low:81:10B8
+SX:A:X:mom3_low:82:10BB
+SX:A:X:mom3_low:84:10BD
+SX:A:X:mom3_low:85:10BF
+SX:A:X:mom3_low:86:10C1
+SX:A:X:mom3_low:87:10C3
+SX:A:X:mom3_low:88:10C6
+SX:A:X:mom3_low:90:10C8
+SX:A:X:mom3_low:91:10CA
+SX:A:X:mom3_low:92:10CC
+SX:A:X:mom3_low:93:10CE
+SX:A:X:mom3_low:94:10D1
+SX:A:X:mom3_low:96:10D3
+SX:A:X:mom3_low:97:10D5
+SX:A:X:mom3_low:98:10D7
+SX:A:X:mom3_low:99:10D9
+SX:A:X:mom3_low:100:10DC
+SX:A:X:mom3_low:102:10DE
+SX:A:X:mom3_low:103:10E0
+SX:A:X:mom3_low:104:10E2
+SX:A:X:mom3_low:105:10E4
+SX:A:X:mom3_low:106:10E7
+SX:A:X:mom3_low:108:10E9
+SX:A:X:mom3_low:109:10EB
+SX:A:X:mom3_low:110:10ED
+SX:A:X:mom3_low:111:10EF
+SX:A:X:mom3_low:112:10F2
+SX:A:X:mom3_low:114:10F4
+SX:A:X:mom3_low:115:10F6
+SX:A:X:mom3_low:116:10F9
+SX:A:X:mom3_low:117:10FC
+SX:A:X:mom3_low:127:10FD
+SX:A:X:mom3_low:128:10FE
+SX:A:X:mom3_low:129:1100
+SX:A:X:mom3_low:135:1102
+SX:A:X:mom3_low:136:1104
+SX:A:X:mom3_low:138:1105
+SX:A:X:mom3_low:139:1107
+SX:A:X:mom3_low:140:110A
+SX:A:X:mom3_low:141:110C
+SX:A:X:mom3_low:142:110F
+SX:A:X:mom3_low:144:1114
+SX:A:X:mom3_low:145:1115
+SX:A:X:mom3_low:152:1116
+SX:A:X:mom3_low:153:111A
+SX:A:X:mom3_low:154:111D
+SX:A:X:mom3_low:155:111F
+SX:A:X:mom3_low:156:1122
+SX:A:X:mom3_low:157:1125
+SX:A:X:mom3_low:161:1126
+SX:A:X:mom3_low:162:1129
+SX:A:X:mom3_low:163:112C
+SX:A:X:mom3_low:164:112F
+SX:A:F:mom3_low:_standby:1094:42
+SX:A:E:mom3_low:_standby:1096:45
+SX:A:F:mom3_low:_init_irq:1096:57
+SX:A:E:mom3_low:_init_irq:10AE:73
+SX:C:F:__crt:___crt_get_system_time:00001130:61
+SX:C:X:__crt:61:2:1130
+SX:C:X:__crt:63:1:1130
+SX:C:X:__crt:64:1:1136
+SX:C:Z:__crt:64:1:1136
+SX:C:E:__crt:___crt_get_system_time:00001137:64
+SX:C:F:__crt:___crt_get_msec_ptr:00001137:76
+SX:C:X:__crt:76:1:1137
+SX:C:X:__crt:78:1:1137
+SX:C:X:__crt:79:1:113A
+SX:C:Z:__crt:79:1:113A
+SX:C:E:__crt:___crt_get_msec_ptr:0000113B:79
+SX:C:F:__crt:___crtInit:0000113B:93
+SX:C:X:__crt:93:1:113B
+SX:C:X:__crt:98:2:113D
+SX:C:X:__crt:99:1:1142
+SX:C:X:__crt:101:3:1149
+SX:C:X:__crt:107:29:1151
+SX:C:X:__crt:109:3:1159
+SX:C:X:__crt:110:3:115E
+SX:C:X:__crt:111:2:1163
+SX:C:X:__crt:113:4:116A
+SX:C:X:__crt:120:2:1178
+SX:C:X:__crt:121:2:117E
+SX:C:X:__crt:122:2:1187
+SX:C:X:__crt:124:2:118E
+SX:C:X:__crt:125:2:1194
+SX:C:X:__crt:128:2:119B
+SX:C:X:__crt:129:1:11A7
+SX:C:Z:__crt:129:1:11A7
+SX:C:E:__crt:___crtInit:000011AA:129
+SX:C:S:G:mom:interrupt_type:_interrupt_type:000011AA:(typ11)
+SX:C:S:G:__crt:__crt_first_malloc_element:___crt_first_malloc_element:000011AE:(typ18-__crt)
+SX:C:S:G:__crt:__crt_first_malloc_element_m_base:___crt_first_malloc_element_m_base:000011B0:(typ21-__crt)
+SX:C:S:G:__crt:__crt_first_malloc_element_m_size:___crt_first_malloc_element_m_size:000011B2:(typ11)
+SX:C:S:S:__crt:__crt_start_time:000011B4:(typ2)
+SX:C:S:S:__crt:now:000011B8:(typ2)

@@ -1,0 +1,82 @@
+QLD (Version 4.8.0)- Link/Load Summary: 'debug\lab2_Debug.s19'
+SCRIPT FILES FROM THE FOLLOWING PATH(S):
+  'C:/Program Files/GMV/EducDist/config/xcc12'
+
+SCRIPT READ FROM THE FOLLOWING FILE(S):
+  'default.lsc'
+
+---------------------------
+ SEARCHED LIBRARIES:
+ 'C:/Program Files/GMV/EducDist/lib/xcc12/libcd.e12'
+ 'C:/Program Files/GMV/EducDist/lib/xcc12/libed.e12'
+ 'C:/Program Files/GMV/EducDist/lib/xcc12/librtkd.e12'
+ 'C:/Program Files/GMV/EducDist/lib/xcc12/libccd.e12'
+
+---------------------------
+ PROGRAM ENTRY:'__start'
+---------------------------
+ GROUPS AND SEGMENTS:
+
+  GROUP 'const_group',
+   SEGMENTS
+   'abs'
+
+  GROUP 'test_group', READ ONLY ,allocation to: 00001000 - 00001137, (size: 312 Bytes)
+   00001000 00001015 'init'
+   00001016 00001129 'text'
+   0000112A 00001137 'bss'
+
+  GROUP 'interrupt_vectors', READ ONLY
+   NO SEGMENTS
+---------------------------
+LINKER DEFINED CONSTANTS:
+   __rom_code_enabled = 0
+   __heap_start = 00001138
+  from segment 'text'
+   00001016 '__text__start'
+   0000112A '__text__end'
+   00000114 '__text__size'
+  from segment 'init'
+   00001000 '__init__start'
+   00001016 '__init__end'
+   00000016 '__init__size'
+  from segment 'bss'
+   0000112A '__bss__start'
+   00001138 '__bss__end'
+   0000000E '__bss__size'
+  from segment 'data'
+   00000000 '__data__start'
+   00000000 '__data__end'
+   00000000 '__data__size'
+  from segment 'rodata'
+   00000000 '__rodata__start'
+   00000000 '__rodata__end'
+   00000000 '__rodata__size'
+---------------------------
+GLOBAL SYMBOL(S):
+
+ in module: '_startup' of type 'O12' defined in file '_startup.o12'
+  in segment: 'text'
+   0000102B '__inchar'
+   00001019 '__init'
+   00001025 '__outchar'
+   00001028 '__tstchar'
+   00001016 '__lowexit'
+  in segment: 'init'
+   00001000 '__start'
+
+ in module: 'mom' of type 'O12' defined in file 'mom.o12'
+  in segment: 'text'
+   00001032 '_main'
+
+ in module: '__crt' of type 'O12' defined in file '__crt.o12'
+  in segment: 'text'
+   000010AF '___crt_get_system_time'
+   000010B6 '___crt_get_msec_ptr'
+   000010BA '___crtInit'
+  in segment: 'bss'
+   0000112A '___crt_first_malloc_element'
+   0000112C '___crt_first_malloc_element_m_base'
+   0000112E '___crt_first_malloc_element_m_size'
+---
+ End of listfile
